@@ -1,0 +1,39 @@
+/* Users */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.user {
+	margin-bottom: 2em;
+}
+.user h4 {
+	margin-bottom: 10px;
+}
+.user-avatar,
+.user-data {
+	float: left;
+}
+.user-avatar {
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.user-data {
+	width: 520px;
+}
+.user-data p {
+	line-height: 1.5em;
+}
+.page-numbers,
+.page-numbers li {
+	display: inline;
+}
